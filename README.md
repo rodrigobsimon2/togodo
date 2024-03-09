@@ -1,3 +1,8 @@
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/summary/new_code?id=rodrigobsimon2_togodo)
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
+
 # 🚀 Togodo - Go TODO App
 
 Togodo is a sleek and efficient TODO app written in Go, designed to empower you in managing your tasks effortlessly. It offers essential features for creating and listing tasks, each with distinct priorities.
