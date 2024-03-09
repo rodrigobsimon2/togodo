@@ -59,8 +59,8 @@ func (pi PersistentImplementationMySQL) ListTask() ([]usecase.Task, error) {
 
 	for rows.Next() {
 		var t usecase.Task
-		var _id int
-		if err := rows.Scan(&_id, &t.Description, &t.Priority, &t.Status); err != nil {
+		var id int
+		if err := rows.Scan(&id, &t.Description, &t.Priority, &t.Status); err != nil {
 			return ts, err
 		}
 		ts = append(ts, t)

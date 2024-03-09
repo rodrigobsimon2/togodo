@@ -1,5 +1,5 @@
 # First stage: build the application
-FROM golang:alpine as builder
+FROM golang:alpine AS builder
 
 WORKDIR /app
 
@@ -8,7 +8,7 @@ COPY . .
 RUN go build -o togodo-cli ./cmd/togodo-cli
 
 # Second stage: create a minimal image
-FROM scratch
+FROM scratch:latest
 
 WORKDIR /app
 
