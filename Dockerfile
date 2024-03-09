@@ -8,7 +8,7 @@ COPY . .
 RUN go build -o togodo-cli ./cmd/togodo-cli
 
 # Second stage: create a minimal image
-FROM scratch:latest
+FROM scratch
 
 WORKDIR /app
 
